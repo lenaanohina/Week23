@@ -1,0 +1,28 @@
+.card-title {
+  margin: 0;
+  min-height: 40px;
+  background-color: rgb(5, 135, 92);
+}
+.card {
+  color: white;
+  margin: 5px;
+  border: 1px solid white;
+  max-width: 330px;
+}
+.card-price {
+  background-color: rgb(39, 193, 141);
+  padding: 30px 0;
+}
+span {
+  font-size: 50px;
+}
+.card-speed {
+  color: grey;
+  background-color: rgb(246, 248, 247);
+  padding: 10px;
+}
+.card-traffic {
+  color: grey;
+  background-color: rgb(235, 239, 238);
+  padding: 2.5em;
+}
