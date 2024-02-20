@@ -2,14 +2,15 @@ import React from "react";
 import "./tariff.css";
 
 const Tariff = ({ name, price, speed, traffic }) => {
-  const cardStyle = {
-    fontWeight: price === 550 ? "bold" : "normal",
-    transform: price === 550 ? "scale(1.15)" : "normal",
-  };
+  const cardClassName = price === 550 ? "card card_red" : "card";
+  const priceClassName =
+    price === 550 ? "card-price card-price_red" : "card-price";
+  const titleClassName =
+    price === 550 ? "card-title card-title_red" : "card-title";
   return (
-    <div className="card" style={cardStyle}>
-      <h2 className="card-title">{name}</h2>
-      <div className="card-price">
+    <div className={cardClassName}>
+      <h2 className={titleClassName}>{name}</h2>
+      <div className={priceClassName}>
         <span>{price}</span>руб/мес
       </div>
       <div className="card-speed">{speed}</div>

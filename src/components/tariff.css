@@ -1,17 +1,27 @@
-.card-title {
-  margin: 0;
-  min-height: 40px;
-  background-color: rgb(5, 135, 92);
-}
 .card {
   color: white;
   margin: 5px;
   border: 1px solid white;
   max-width: 330px;
 }
+.card_red {
+  transform: scale(1.1);
+  font-weight: 600;
+}
+.card-title {
+  margin: 0;
+  min-height: 40px;
+  background-color: rgb(5, 135, 92);
+}
+.card-title_red {
+  background-color: rgb(167, 5, 5);
+}
 .card-price {
   background-color: rgb(39, 193, 141);
   padding: 30px 0;
+}
+.card-price_red {
+  background-color: rgb(235, 62, 62);
 }
 span {
   font-size: 50px;
