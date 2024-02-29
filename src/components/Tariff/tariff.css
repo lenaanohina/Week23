@@ -4,9 +4,10 @@
   border: 1px solid white;
   max-width: 330px;
 }
-.card_red {
+.card_selected {
   transform: scale(1.1);
   font-weight: 600;
+  transition: 0.3s;
 }
 .card-title {
   margin: 0;

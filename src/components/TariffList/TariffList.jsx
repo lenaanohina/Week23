@@ -1,5 +1,5 @@
 import React from "react";
-import Tariff from "./Tariff";
+import Tariff from "../Tariff/Tariff";
 import "./tariffList.css";
 
 const TariffList = () => {

@@ -1,5 +1,5 @@
 import "./App.css";
-import TariffList from "./components/TariffList";
+import TariffList from "./components/TariffList/TariffList";
 
 function App() {
   return (
